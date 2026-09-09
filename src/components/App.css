@@ -1,0 +1,166 @@
+.calendar-page {
+  min-height: 100vh;
+  padding: 30px;
+  background: #f5f5f5;
+  box-sizing: border-box;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.calendar-header h1 {
+  margin: 0;
+  font-size: 30px;
+  color: #333;
+}
+
+.btn {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #eeeeee;
+  color: #333;
+  font-size: 15px;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.create-btn {
+  background: #333;
+  color: white;
+}
+
+.filter-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-container .active {
+  background: #333;
+  color: white;
+}
+
+.calendar-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.rbc-calendar {
+  min-height: 650px;
+}
+
+.rbc-toolbar {
+  margin-bottom: 20px;
+}
+
+.rbc-toolbar button {
+  cursor: pointer;
+}
+
+.rbc-event {
+  cursor: pointer;
+  padding: 4px 6px;
+}
+
+.popup-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.mm-popup__box {
+  width: 420px;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.popup-header h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.popup-close {
+  border: none;
+  background: transparent;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.popup-body {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+}
+
+.popup-body input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+  outline: none;
+}
+
+.popup-body input:focus {
+  border-color: #555;
+}
+
+.mm-popup__box__footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  border-top: 1px solid #ddd;
+}
+
+.mm-popup__box__footer__right-space {
+  display: flex;
+  gap: 10px;
+}
+
+.mm-popup__btn {
+  border: none;
+  background: #333;
+  color: white;
+  padding: 9px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.mm-popup__btn--info {
+  background: #3498db;
+}
+
+.mm-popup__btn--danger {
+  background: #e74c3c;
+}
+
+.event-details {
+  padding: 20px;
+}
+
+.event-details h3 {
+  margin-top: 0;
+}
+
+.event-details p {
+  margin: 10px 0;
+}
